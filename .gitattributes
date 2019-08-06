@@ -1,0 +1,17 @@
+* text eol=lf
+
+*.cpp text
+*.h text
+*.rb text
+*.d text
+*.di text
+*.rs text
+*.json text
+*.md text
+*.cs text
+*.rb text
+
+*.ico binary
+*.exe binary
+*.png binary
+
