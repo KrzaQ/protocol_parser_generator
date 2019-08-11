@@ -26,7 +26,7 @@ int main()
     m.value<kq::y_to>() = 37;
     DEBUG(m.to_string());
 
-    kq::mov m2 = kq::mov::parse(m.to_string);
+    kq::mov m2 = kq::mov::parse(m.to_string());
 
     DEBUG(m2.value<kq::message_type>());
     DEBUG(m2.value<kq::x_to>());
